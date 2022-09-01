@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form>
+    <div id="signup">
+        <div class="header">
+            Sign Up
+        </div>
+        
+        <div class="form">
+            <form action="">
+            <div class="form-left">
+                <ul class="form-list">
+                    <li class="list-item"><label for="fname">First Name</label></li>
+                    <li class="list-item"><label for="lname">Last Name</label></li>
+                    <li class="list-item"><label for="sname">Screen Name</label></li>
+                    <li class="list-item"><label for="dob">Date of Birth</label></li>
+                    <li class="list-item"><label for="gender">Gender</label></li>
+
+                    <li class="list-item"><label for="country">Country</label></li>
+
+                    <li class="list-item"><label for="email">E-mail</label></li>
+                    <li class="list-item"><label for="phone">Phone</label></li>
+                    <li class="list-item"><label for="password">Password</label></li>
+                    <li class="list-item"><label for="cpassword">Confirm Password</label></li>
+                </ul>
+                
+            </div>
+            <div class="form-right">
+                <input type="text" id="fname" placeholder="Enter First Name">
+                <input type="text" id="lname" placeholder="Enter Last Name">
+                <input type="text" id="sname" placeholder="Enter Surname">
+                <div class="dob">
+                    <select name="month" id="month" tabindex="7">
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <select name="date" id="date">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" name="gender" class="radio"><span>Male</span>
+                    <input type="radio" name="gender" class="radio"><span>Female</span>
+                </div>
+
+                <select name="" id="country">
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="china">China</option>
+                    <option value="russia">Russia</option>
+                </select>
+
+                <input type="email" id="email" placeholder="Enter Email">
+                <input type="number" id="phone" placeholder="Enter Phone Number">
+                <input type="password" id="password">
+                <input type="password" id="cpassword">
+                <input type="checkbox" class="checkbox"><span>I agree to the Terms of Use</span>
+                <!-- <div class="footer">
+                    <button type="submit" class="btn1">Submit</button>
+                    <button type="reset" class="btn2">Cancel</button>
+                </div> -->
+            </div>
+            
+            </form>
+        </div>
+    
+        <div class="footer">
+            <button type="submit" class="btn1">Submit</button>
+            <button type="reset" class="btn2">Cancel</button>
+        </div>
+    
+    </div>
+</form>
+
+
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        form{
+            display: flex;
+            flex-direction: row;
+        }
+        #signup{
+            width: 39%;
+            height: 87vh;
+            border: 1px solid green;    /*-----------------*/
+            color: #FFF;
+            background: rgba(38,34,74,0.86);
+            position: absolute;
+            left: 30%;
+            top: 5%;
+        }
+        .header{
+            padding: 1rem;
+            background: rgba(241, 182, 53, 0.938);
+            color: #FFF;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            padding: 0.8rem;
+            text-align: right;
+            /* border: 1px solid black; */
+            color: yellow;
+        }
+        .form{
+            display: flex;
+        }
+        .form-left{
+            width: 40%;
+        }
+        .form-right{
+            width: 70%;
+            padding-top: 0.7rem;
+            /* border: 1px solid black; */
+        }
+        input{
+            display: block;
+            padding: 0.5rem;
+            margin: 0.6rem;
+            border-radius: 7px;
+            width: 85%;          /*-----------------*/
+        }
+        span{
+            color: yellow;
+        }
+        select{
+            padding: 0.5rem;
+            margin-left: 1rem;
+            margin-top: 0.1rem;
+            border-radius: 7px;
+        }
+        #month{
+            width: 30%;
+        }
+        #date{
+            width: 21%;
+        }
+        #year{
+            width: 25%;
+        }
+        .radio-box{
+            margin-top: 0.6rem;
+            margin-bottom: 0.3rem;
+        }
+        .radio{
+            display: inline;
+            width: 10px;
+            cursor: pointer;
+        }
+        .checkbox{
+            width: 10px;
+            display: inline;
+        }
+        .footer{
+            display: flex;
+            justify-content: flex-end;
+            background: rgba(241, 182, 53, 0.938);
+            padding: 1rem;
+            margin-top: 1.2rem;
+            /* width: 39vw; */
+        }
+        button{
+            font-weight: 700;
+            color: white;
+            padding: 0.4rem;
+            margin-left: 1rem;
+            width: 5rem;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn1{
+            background: #5ed25d;
+        }
+        .btn2{
+            background: #20c1da;
+        }
+        #country{
+            width: 90%;
+            margin-left: 11px;
+            
+        }
+    </style>
+</body>
+</html>
+
+
+
+
